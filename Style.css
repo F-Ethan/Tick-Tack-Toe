@@ -20,13 +20,16 @@ table {
 table tr:first-child td {
 	border-top: 0px;
 }
+
 table tr:last-child td {
 	border-bottom: 0px;
 }
-table tr td:first-child{
+
+table tr td:first-child {
 	border-left: 0px;
 }
-table tr td:last-child{
+
+table tr td:last-child {
 	border-right: 0px;
 }
 
@@ -34,51 +37,59 @@ table tr td:last-child{
 	display: none;
 	width: 240px;
 	top: 120px;
-	background-color: rgba(20,555,300,0.8);
+	background-color: rgba(20, 555, 300, 0.8);
 	position: absolute;
 	left: 50%;
 	margin-left: -100px;
-	padding-top:50px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	text-align: center;
 	border-radius: 5px;
 	color: black;
 	font-size: 2em;
 }
+
 .rules {
 	color: blue;
 	text-align: center;
 	margin-top: 400px;
 }
-.twoPlayer{
+
+.twoPlayer {
 	color: blue;
 }
+
 h1 {
 	position: absolute;
 	left: 50%;
 	margin-top: 0px;
 	margin-left: -85px;
 }
-.header{
+
+.header {
 	width: 100%;
 	height: 2rem;
 	background-color: rgb(251, 66, 255);
-	padding-top: 0px;
+	padding: 10px;
 	border-radius: 2%;
 }
+
 button {
 	height: inherit;
 	border-radius: inherit;
 	border-color: black;
 }
-.games p{
+
+.games p {
 	margin: 0px;
 }
-.games div{
+
+.games div {
 	position: relative;
 
 }
-.mGames{
+
+.mGames {
 	display: none;
 	position: absolute;
 	width: 90px;
